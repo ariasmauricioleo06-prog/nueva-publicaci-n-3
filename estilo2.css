@@ -1,0 +1,92 @@
+main{
+    padding: 400px;
+    padding-bottom: 100px;
+}
+#cabecera{
+    position: fixed;
+    justify-self: center;
+    background-color: white;
+    padding-left: 400px;
+    padding-right: 400px;
+    top: 0;
+}
+#titulo{
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: italic;
+    background-color: white;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+#menu li a{
+    display: block;
+    padding: 26px 40px;
+    color: maroon;
+    text-decoration: none;
+    flex-direction: row;
+    top: 0;
+    font-size: 20px;
+}
+#menu li a:hover{
+    transform: scale(1.1);
+    transition: 2s ;
+    color: orange;
+}
+#foto img{
+    border-radius: 20px;
+    display: flex;
+    justify-self: center;
+    width: 560px;
+}
+#parrafos{
+    justify-content: center;
+    text-align: justify;
+    color: rgb(92, 29, 1);
+}
+#parrafo2{
+    display: flex;
+    justify-content: center;
+    color: rgb(92, 29, 1);
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify; 
+}
+#parrafo2 img{
+    width: 200px;;
+}
+#titulo2{
+    text-align: center;
+    color: maroon;
+    font-size: 150%;
+}
+#parrafos p{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#parrafos3 p{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#parrafos3{
+    color: maroon;
+    text-align: justify;
+}
+#cierre{
+    display: flex;
+    justify-content: center;
+    color: rgb(92, 29, 1);
+}
+#redes{
+display: flex;
+justify-content: center;
+position: relative;
+font-size: 30px;
+gap: 25px;
+padding: 20px;
+}

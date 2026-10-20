@@ -1,0 +1,85 @@
+main{
+    padding: 400px;
+    padding-bottom: 1px;
+}
+#cabecera{
+    position: fixed;
+    justify-self: center;
+    background-color: white;
+    padding-left: 400px;
+    padding-right: 400px;
+    top: 0;
+}
+#titulo{
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: italic;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+#menu li a{
+    display: block;
+    padding: 26px 40px;
+    color: maroon;
+    text-decoration: none;
+    flex-direction: row;
+    top: 0;
+    font-size: 20px;
+}
+#menu li a:hover{
+    transform: scale(1.1);
+    transition: 2s ;
+    color: orange;
+}
+#parrafos{
+    color: maroon;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+#titulo2{
+    color: rgb(20, 0, 0);
+    text-align: center;
+}
+#video{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: maroon;
+    text-align: center;
+}
+#video iframe{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px lightslategray;
+}
+#video p{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+#video2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: maroon;
+    text-align: center;
+}
+#video2 iframe{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px lightslategray;
+}
+#video2 p{ 
+    padding-left: 250px;
+    padding-right: 250px;
+}
+#redes{
+display: flex;
+justify-content: center;
+font-size: 30px;
+gap: 25px;
+}
